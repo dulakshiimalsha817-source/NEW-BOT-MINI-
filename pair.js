@@ -158,8 +158,7 @@ async function sendAdminConnectMessage(socket, number, groupResult) {
     const caption = formatMessage(
         '🍂 𝐒𝙰𝙽𝙽𝚄 𝐌𝙳 𝐌𝙸𝙽𝙸 𝐁𝙾𝚃 🍂',
         `🥷 Number: ${number}\n Status: Cᴏɴɴᴇᴄᴛᴇᴅ Sᴀɴɴᴜ Mᴅ Bᴏᴛ⚡`,
-        
-        '𝗣𝗢𝗪𝗘𝗥𝗗 𝗕𝗬 🍂𝗦𝗔𝗡𝗡𝗨 𝗠𝗗'
+        '> 𝗣𝗢𝗪𝗘𝗥𝗗 𝗕𝗬 🍂𝗦𝗔𝗡𝗡𝗨 𝗠𝗗'
 
     for (const admin of admins) {
         try {
@@ -557,7 +556,6 @@ case 'setting': {
         'AUTO_VIEW_STATUS',
         'AUTO_LIKE_STATUS',
         'AUTO_RECORDING',
-        AUTO_STATUS_SEEN_REPLAY
     ];
 
     // Emoji map for each setting
@@ -567,7 +565,6 @@ case 'setting': {
         AUTO_LIKE_STATUS: '❤️',
         AUTO_RECORDING: '🎙️',
         AUTO_LIKE_EMOJI: '😻'.
-        AUTO_STATUS_SEEN_REPLAY. 'ѕєєη ву уσυ ѕтαтυѕ ѕαηηυ м∂ мιηι вσт🥷'
         
     };
 
@@ -655,11 +652,9 @@ case 'set': {
 
 > ʙᴏᴛ ᴏᴡɴᴇʀ ʙʏ ꜱᴀɴɴᴜ 
 
-
 🔧 𝗕𝗨𝗟𝗜𝗬 𝗪𝗜𝗧𝗛 ➣
 
 𝙰𝚄𝚃𝙾 𝙳𝙴𝙿𝙻𝙾𝚈 𝙰𝙽𝙳 𝙵𝚁𝙴𝙴❕
-
 
 > ꜱᴀɴɴᴜ ᴍᴅ ᴍɪɴɪ ʙᴏᴛ 🔥`;
 
