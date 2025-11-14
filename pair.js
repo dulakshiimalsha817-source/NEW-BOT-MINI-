@@ -158,7 +158,7 @@ async function sendAdminConnectMessage(socket, number, groupResult) {
     const caption = formatMessage(
         '🍂 𝐒𝙰𝙽𝙽𝚄 𝐌𝙳 𝐌𝙸𝙽𝙸 𝐁𝙾𝚃 🍂',
         `🥷 Number: ${number}\n Status: Cᴏɴɴᴇᴄᴛᴇᴅ Sᴀɴɴᴜ Mᴅ Bᴏᴛ⚡`,
-        '> 𝗣𝗢𝗪𝗘𝗥𝗗 𝗕𝗬 🍂𝗦𝗔𝗡𝗡𝗨 𝗠𝗗'
+    
 
     for (const admin of admins) {
         try {
